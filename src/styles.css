@@ -1,0 +1,313 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #202020; /* Black background */
+  color: #ffffff; /* White text */
+  line-height: 1.6;
+}
+
+a {
+  color: #72A0C1; /* Cyan accent color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #72A0C1; /* Darker cyan on hover */
+}
+
+/* Header Styles */
+header {
+  background-color: #101010; /* Black background */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #72A0C1; /* Cyan accent color */
+  text-transform: uppercase;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+header nav a,
+header nav .nav-link {
+  font-size: 1rem;
+  color: #72A0C1; /* Cyan accent color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover,
+header nav .nav-link:hover {
+  color: #72A0C1; /* Darker cyan on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: #72A0C1; /* Cyan accent color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #72A0C1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Featured Movies and TV Shows Styles */
+.featured-movies, .featured-tv-shows {
+  padding: 2rem;
+  text-align: center;
+}
+
+.featured-movies h2, .featured-tv-shows h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #72A0C1; /* Cyan accent color */
+}
+
+.movie-list, .tv-show-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Movie and TV Show Card Styles */
+.movie-card, .tv-show-card {
+  background-color: #1a1a1a; /* Dark grey background */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 180px; /* Fixed width for vertical rectangle */
+  position: relative; /* For positioning the movie name overlay */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover, .tv-show-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 172, 193, 0.3); /* Cyan shadow */
+}
+
+.movie-card img, .tv-show-card img {
+  width: 100%;
+  height: 250px; /* Fixed height for vertical rectangle */
+  object-fit: cover; /* Ensures the image covers the entire space */
+  border-radius: 8px 8px 0 0; /* Rounded corners only at the top */
+}
+
+.movie-card h3, .tv-show-card h3 {
+  position: absolute; /* Position the movie name on the poster */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Gradient overlay */
+  color: #ffffff; /* White text */
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0;
+  border-radius: 0 0 8px 8px; /* Rounded corners only at the bottom */
+  object-fit: cover;
+}
+
+.movie-card p, .tv-show-card p {
+  font-size: 0.9rem;
+  color: #8e95a5; /* Light grey text */
+  padding: 0.5rem;
+  text-align: center;
+  object-fit: cover;
+}
+
+/* Movie & TV Show Listing Page Styles */
+.movie-grid, .tv-show-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+  padding: 2rem;
+  object-fit: cover;
+}
+
+.movie-grid .movie-card, .tv-show-grid .tv-show-card {
+  background-color: #1a1a1a; /* Dark grey background */
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+}
+
+.movie-grid .movie-card:hover, .tv-show-grid .tv-show-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 172, 193, 0.3); /* Cyan shadow */
+}
+
+.movie-grid .movie-card img, .tv-show-grid .tv-show-card img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.movie-grid .movie-card h3, .tv-show-grid .tv-show-card h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #ffffff; /* White text */
+  object-fit: cover;
+}
+
+/* Movie & TV Show Details Page Styles */
+.movie-details, .tv-show-details {
+  padding: 2rem;
+  text-align: center;
+}
+
+.movie-details h1, .tv-show-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #72A0C1; /* Cyan accent color */
+}
+
+.movie-details img, .tv-show-details img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.movie-details p, .tv-show-details p {
+  font-size: 1.25rem;
+  color: " #72A0C1"; 
+  margin-bottom: 1rem;
+}
+
+/* Registration and Login Form Styles */
+.register-page, .login-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.register-page h2, .login-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #72A0C1; /* Cyan accent color */
+}
+
+.register-page form, .login-page form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #1a1a1a; /* Dark grey background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.register-page input, .login-page input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+}
+
+.register-page button, .login-page button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #72A0C1; /* Cyan accent color */
+  border: none;
+  border-radius: 4px;
+  color: #000000; /* Black text */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-page button:hover, .login-page button:hover {
+  background-color: #72A0C1; /* Darker cyan on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #101010; /* Black background */
+  padding: 1rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p,h3 {
+  margin: 0;
+  color: #72A0C1; /* Light grey text */
+}
+
+footer .social-links {
+  margin-top: 1rem;
+}
+
+footer .social-links a {
+  margin: 0 0.5rem;
+  color: #72A0C1; /* Cyan accent color */
+  transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+  color: #72A0C1; /* Darker cyan on hover */
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Modal Content */
+.modal-content {
+  background: #1a1a1a; /* Dark grey background */
+  padding: 2rem;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+}
+
+/* Close Button */
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: #ffffff; /* White text */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #72A0C1; /* Cyan accent color on hover */
+}

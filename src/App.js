@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Layout from './Layout';
+import HomePage from './HomePage';
+import MoviesPage from './MoviesPage';
+import MovieDetailsPage from './MovieDetailsPage';
+import TVShowsPage from './TVShowsPage';
+import TVShowDetails from './TVShowDetailsPage';
+import RegisterPage from './components/RegisterPage';
+import LoginPage from './components/LoginPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="movies" element={<MoviesPage />} />
+          <Route path="movie/:id" element={<MovieDetailsPage />} />
+          <Route path="tv-shows" element={<TVShowsPage />} />
+          <Route path="tv-show/:id" element={<TVShowDetails />} />
+          <Route path="register" element={<RegisterPage />} />
+          <Route path="login" element={<LoginPage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

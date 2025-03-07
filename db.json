@@ -1,0 +1,331 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Frozen II",
+      "synopsis": "Elsa, Anna, Kristoff, and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+      "posterSmall": "/images/frozen2small.png",
+      "posterLarge": "/images/Frozen-II-large.png",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 2,
+      "title": "Avengers: Endgame",
+      "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins.",
+      "posterSmall": "/images/avengers.jpg",
+      "posterLarge": "/images/d58619d1fe5a4ca71c57cb1afde76a0a.jpg",
+      "rentPrice": 4.99,
+      "purchasePrice": 19.99
+    },
+    {
+      "id": 3,
+      "title": "Inception",
+      "synopsis": "A thief who enters the dreams of others to steal secrets gets a chance to have his past erased.",
+      "posterSmall": "/images/inception-leonardo-dicaprio-movie-posters-2400x3500-entertainment-movies-hd-art-wallpaper-preview.jpg",
+      "posterLarge": "/images/518783.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 12.99
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "synopsis": "Batman faces the Joker, a criminal mastermind spreading chaos in Gotham.",
+      "posterSmall": "/images/images (2).jpeg",
+      "posterLarge": "/images/batman-the-dark-knight-14559-1920x1200.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 5,
+      "title": "Interstellar",
+      "synopsis": "A group of explorers travel through a wormhole in search of a new habitable planet.",
+      "posterSmall": "/images/HD-wallpaper-interstellar-2014-movie-poster-thumbnail.jpg",
+      "posterLarge": "/images/images (3).jpeg",
+      "rentPrice": 4.49,
+      "purchasePrice": 15.99
+    },
+    {
+      "id": 6,
+      "title": "The Lion King",
+      "synopsis": "Simba, a lion cub, flees his kingdom only to return and reclaim it as king",
+      "posterSmall": "/images/tlk_iphonebackground_19_3360d513.jpeg",
+      "posterLarge": "/images/1115861.jpg",
+      "rentPrice": 2.99,
+      "purchasePrice": 10.99
+    },
+    {
+      "id": 7,
+      "title": "Jurassic Park",
+      "synopsis": "A theme park featuring cloned dinosaurs turns into chaos when things go wrong.",
+      "posterSmall": "/images/a51a40ff7b57e066cd4e733024f1c48f.jpg",
+      "posterLarge": "/images/41441-1920x1080-desktop-1080p-jurassic-park-wallpaper.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 11.99
+    },
+    {
+      "id": 8,
+      "title": "Titanic",
+      "synopsis": "A romance blossoms aboard the ill-fated Titanic between Jack and Rose.",
+      "posterSmall": "/images/images (4).jpeg",
+      "posterLarge": "/images/336484.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 13.99
+    },
+    {
+      "id": 9,
+      "title": "Spider-Man: No Way Home",
+      "synopsis": "Peter Parker seeks Doctor Strange's help to restore his secret identity, leading to multiverse chaos.",
+      "posterSmall": "/images/spider-man-no-way-home-poster-5ss50nrv7yw0o9r4.webp",
+      "posterLarge": "/images/1218962.jpg",
+      "rentPrice": 4.99,
+      "purchasePrice": 18.99
+    },
+    {
+      "id": 10,
+      "title": "Avatar",
+      "synopsis": "A marine on an alien planet gets caught between duty and protecting a new world.",
+      "posterSmall": "/images/avatar-twow-mobilewallpp02_53237636.jpeg",
+      "posterLarge": "/images/HD-wallpaper-avatar-movie.jpg",
+      "rentPrice": 4.49,
+      "purchasePrice": 16.99
+    },
+    {
+      "id": 11,
+      "title": "The Matrix",
+      "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "posterSmall": "/images/HD-wallpaper-the-matrix-edge-abstract-android-black-edge-green-iphone-lights-logo-movie-the-matrix-thumbnail.jpg",
+      "posterLarge": "/images/the_matrix__1999__wallpaper_by_stephen_fisher_dfi6ui6-fullview.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 12,
+      "title": "Star Wars: The Force Awakens",
+      "synopsis": "Three decades after the Galactic Civil War, a new threat arises, and a scavenger named Rey is drawn into the conflict.",
+      "posterSmall": "/images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_QL75_UY281_CR0,0,190,281_.jpg",
+      "posterLarge": "/images/89fa2d9d06b57afa76a0a9a5d6fd19ee.jpg",
+      "rentPrice": 4.49,
+      "purchasePrice": 17.99
+    },
+    {
+      "id": 13,
+      "title": "Black Panther",
+      "synopsis": "T'Challa, heir to the hidden kingdom of Wakanda, must step forward to lead his people into a new future.",
+      "posterSmall": "/images/HD-wallpaper-black-panther-2018-marvel-movie-poster-war.jpg",
+      "posterLarge": "/images/16337101465_652e21a416_b.jpg",
+      "rentPrice": 4.99,
+      "purchasePrice": 19.99
+    },
+    {
+      "id": 14,
+      "title": "The Godfather",
+      "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
+      "posterSmall": "/images/wp12115362.webp",
+      "posterLarge": "/images/1108220.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 12.99
+    },
+    {
+      "id": 15,
+      "title": "Pulp Fiction",
+      "synopsis": "The lives of two mob hitmen, a boxer, and a gangster's wife intertwine in four tales of violence and redemption.",
+      "posterSmall": "/images/images (5).jpeg",
+      "posterLarge": "/images/pulp-fiction-pulp-fiction-8900005-1024-768.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 16,
+      "title": "Forrest Gump",
+      "synopsis": "The story of a man with a low IQ who accomplished great things in his life, despite his limitations.",
+      "posterSmall": "/images/forrest-gump-1994-directed-by-robert-zemeckis-credit-paramount-pictures-album-2NKT66A.jpg",
+      "posterLarge": "/images/139214-2560x1440-desktop-hd-forrest-gump-wallpaper-photo.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 12.99
+    },
+    {
+      "id": 17,
+      "title": "The Shawshank Redemption",
+      "synopsis": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
+      "posterSmall": "/images/robbinsposter-the-shawshank-redemption-1994-2JH2MYR.jpg",
+      "posterLarge": "/images/wall2.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 18,
+      "title": "Gladiator",
+      "synopsis": "A former Roman General seeks justice after being betrayed by the corrupt emperor who murdered his family.",
+      "posterSmall": "/images/images (6).jpeg",
+      "posterLarge": "/images/gladiator-lg.jpg",
+      "rentPrice": 4.49,
+      "purchasePrice": 15.99
+    }
+  ],
+  "tvShows": [
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "synopsis": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces to get him back.",
+      "posterSmall": "/images/strangersmall.png",
+      "posterLarge": "/images/strangerlarge.png",
+      "rentPrice": 2.99,
+      "purchasePrice": 9.99
+    },
+    {
+      "id": 2,
+      "title": "Breaking Bad",
+      "synopsis": "A high school chemistry teacher turns to making and selling meth after being diagnosed with cancer.",
+      "posterSmall": "/images/desktop-wallpaper-breaking-bad-tv-show-hq-breaking-bad.jpg",
+      "posterLarge": "/images/thumb-1920-675471.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 12.99
+    },
+    {
+      "id": 3,
+      "title": "Game of Thrones",
+      "synopsis": "Noble families vie for control of the Seven Kingdoms of Westeros while an ancient threat emerges.",
+      "posterSmall": "/images/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "posterLarge": "/images/drama-fantasy-game-hbo-wallpaper-preview.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 4,
+      "title": "The Office",
+      "synopsis": "A mockumentary on the everyday lives of office employees at Dunder Mifflin.",
+      "posterSmall": "/images/172504-1280x1922-samsung-hd-the-office-tv-series-background.jpg",
+      "posterLarge": "/images/the-office-season-4-poster-jv3metxfbmnzamz2.jpg",
+      "rentPrice": 2.49,
+      "purchasePrice": 9.99
+    },
+    {
+      "id": 5,
+      "title": "Friends",
+      "synopsis": "Follows the lives of six friends navigating relationships and careers in New York City.",
+      "posterSmall": "/images/13917-1154x2048-mobile-hd-friends-tv-series-background-photo.jpg",
+      "posterLarge": "/images/3bc61080bada6b18463a0a3481bacbd8.jpeg",
+      "rentPrice": 2.99,
+      "purchasePrice": 10.99
+    },
+    {
+      "id": 6,
+      "title": "Sherlock",
+      "synopsis": "A modern adaptation of Sherlock Holmes solving crimes in contemporary London.",
+      "posterSmall": "/images/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_.jpg",
+      "posterLarge": "/images/thumb-1920-1031817.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 12.99
+    },
+    {
+      "id": 7,
+      "title": "The Mandalorian",
+      "synopsis": "A lone bounty hunter in the outer reaches of the galaxy protects a mysterious child.",
+      "posterSmall": "/images/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_.jpg",
+      "posterLarge": "/images/1304823.png",
+      "rentPrice": 4.49,
+      "purchasePrice": 15.99
+    },
+    {
+      "id": 8,
+      "title": "The Witcher",
+      "synopsis": "Geralt of Rivia, a monster hunter, navigates a world full of magic and political intrigue.",
+      "posterSmall": "/images/MV5BMTQ5MDU5MTktMDZkMy00NDU1LWIxM2UtODg5OGFiNmRhNDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "posterLarge": "/images/netflix-the-witcher-season-3-2023-sr.jpg",
+      "rentPrice": 3.99,
+      "purchasePrice": 13.99
+    },
+    {
+      "id": 9,
+      "title": "Better Call Saul",
+      "synopsis": "The story of con-man turned lawyer Jimmy McGill before he became Saul Goodman.",
+      "posterSmall": "/images/2012534-1500x2250-mobile-hd-better-call-saul-background.jpg",
+      "posterLarge": "/images/HD-wallpaper-tv-show-bob-odenkirk-better-call-saul-jimmy-mcgill-thumbnail.jpg",
+      "rentPrice": 3.49,
+      "purchasePrice": 12.99
+    },
+    {
+      "id": 10,
+      "title": "Loki",
+      "synopsis": "Loki, the God of Mischief, finds himself in a new timeline and tangled in the TVA's affairs.",
+      "posterSmall": "/images/HD-wallpaper-loki-loki-serious.jpg",
+      "posterLarge": "/images/1158117.jpg",
+      "rentPrice": 4.99,
+      "purchasePrice": 16.99
+    },
+    {
+      "id": 11,
+      "title": "The Crown",
+      "synopsis": "A historical drama about the reign of Queen Elizabeth II and the events that shaped the second half of the 20th century.",
+      "posterSmall": "/images/The_Crown_season_1.jpeg",
+      "posterLarge": "/images/HD-wallpaper-tv-show-matt-smith-queen-elizabeth-ii-vanessa-kirby-the-crown-prince-philip-princess-margaret-queen-elizabeth-the-queen-mother-victoria-hamilton-claire-foy.jpg",
+      "rentPrice": 4.49,
+      "purchasePrice": 15.99
+    },
+    {
+      "id": 12,
+      "title": "Westworld",
+      "synopsis": "A futuristic theme park allows visitors to live out their fantasies, but the androids begin to malfunction.",
+      "posterSmall": "/images/HD-wallpaper-westworld-western.jpg",
+      "posterLarge": "/images/1120682.jpg",
+      "rentPrice": 4.99,
+      "purchasePrice": 17.99
+    },
+    {
+      "id": 13,
+      "title": "Narcos",
+      "synopsis": "The story of the rise and fall of the Medellín drug cartel and the DEA agents who fought to bring it down.",
+      "posterSmall": "/images/17c76db9c329bad55b4f53be205c6ba1.jpg",
+      "posterLarge": "/images/images (7).jpeg",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 14,
+      "title": "The Big Bang Theory",
+      "synopsis": "A group of socially awkward scientists navigate life, love, and friendships in Pasadena.",
+      "posterSmall": "/images/115809-2000x3000-iphone-hd-the-big-bang-theory-wallpaper-image.jpg",
+      "posterLarge": "/images/thumb-1920-431311.jpg",
+      "rentPrice": 2.99,
+      "purchasePrice": 10.99
+    },
+    {
+      "id": 15,
+      "title": "Parks and Recreation",
+      "synopsis": "The absurd antics of public officials in the Parks and Recreation Department of Pawnee, Indiana.",
+      "posterSmall": "/images/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_.jpg",
+      "posterLarge": "/images/549089.jpg",
+      "rentPrice": 2.49,
+      "purchasePrice": 9.99
+    },
+    {
+      "id": 16,
+      "title": "The Simpsons",
+      "synopsis": "The satirical adventures of a working-class family in the misfit city of Springfield.",
+      "posterSmall": "/images/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "posterLarge": "/images/6d0ba078ff7a20339b3841c4b1ff5723.jpg",
+      "rentPrice": 2.99,
+      "purchasePrice": 10.99
+    },
+    {
+      "id": 17,
+      "title": "The Walking Dead",
+      "synopsis": "A group of survivors must navigate a post-apocalyptic world overrun by zombies.",
+      "posterSmall": "/images/images (8).jpeg",
+      "posterLarge": "/images/thumb-350-543469.webp",
+      "rentPrice": 3.99,
+      "purchasePrice": 14.99
+    },
+    {
+      "id": 18,
+      "title": "House of Cards",
+      "synopsis": "A ruthless politician and his ambitious wife stop at nothing to achieve power in Washington, D.C.",
+      "posterSmall": "/images/MV5BZWRmYjczYjQtMzBkNC00OTEzLThkYTAtZDJkZjM2OWRmOWU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "posterLarge": "/images/174668-2549x1350-desktop-hd-house-of-cards-background-image.jpg",
+      "rentPrice": 4.49,
+      "purchasePrice": 15.99
+    }
+   
+  ]
+}
