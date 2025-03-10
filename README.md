@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# BingeNow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BingeNow is a digital video store, similar to Netflix, Hulu, and Vudu. This web application allows users to track TV shows and movies, keep up-to-date with the latest releases. Built using the React.js framework, BingeNow provides a seamless and engaging user experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **TV Shows and Movies**: Keep a list of featured TV Shows, featured movies, actors spotlight, cinema spotlight, movie/tv show details.
+- **Latest Releases**: Stay informed about the latest TV show and movie releases.
+- **Login nd registration**: Login and registration for the website. 
 
-### `npm start`
+## Application Architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+BingeNow is built  using React.js and is broken up into a number of pertinent components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requirements Specification
 
-### `npm test`
+### Home Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Home Page consists of the following sections:
 
-### `npm run build`
+- **Header**: Contains the logo for the website and a navigation bar with links to the sign-up and login pages.
+- **Navigation Bar**: May be within the header or a separate area. Includes links to sign-up and login pages, which can be rendered as modal pop-up boxes.
+- **Hero Section**: Displays banners and images highlighting the most demanded movies and TV shows of 2021, implemented as a slideshow.
+- **Featured Movies Category Section**: Displays 4-6 featured movies.
+- **Featured TV Shows Section**: Displays 4-6 featured TV shows.
+- **Content Sections**: Contains static data, with a combination of text, headings, and images highlighting the company’s services and exciting details about Hollywood.
+- **Footer**: Includes footer menu items, social media links, and other relevant information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Movies & TV Show Listing Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This page lists at least 12 sample movies and TV shows in a grid (4-6 columns). Each item displays a poster and title, which is clickable and navigates to the Movie & TV Show Details page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Movies & TV Show Details Page
 
-### `npm run eject`
+When a user clicks on a movie or TV show from the listing page, they are navigated to this page. It lists the title, synopsis, small poster, large poster, and prices to rent or purchase the movie or TV show outright.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Registration & Login Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+These pages contain well-designed user registration and login forms. They can be implemented as separate pages or pop-up modals, maintaining consistency with the structure, header, nav, and footer of the home page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **JavaScript**: Main programming language for the application logic.
+- **CSS**: Styling the application to provide a visually appealing user interface.
+- **HTML**: Structuring the web pages and content.
+- **React.js**: Framework used to build the Single Page Application.
