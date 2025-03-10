@@ -1,16 +1,24 @@
 # BingeNow
 
-BingeNow is a digital video store, similar to Netflix, Hulu, and Vudu. This web application allows users to track TV shows and movies, keep up-to-date with the latest releases. Built using the React.js framework, BingeNow provides a seamless and engaging user experience.
+BingeNow is a digital video store, similar to Netflix, Hulu, and Vudu. This web application allows users to track TV shows and movies, and keep up-to-date with the latest releases. Built using the React.js framework, BingeNow provides a seamless and engaging user experience.
+![Screenshot 2025-03-09 210457](https://github.com/user-attachments/assets/0c5f3d40-4b20-4e58-8f75-c6aab41ae93f)
+![Screenshot 2025-03-09 210514](https://github.com/user-attachments/assets/a17aa515-30e1-4f4d-b655-a1ad734c2ccf)
+![Screenshot 2025-03-09 210527](https://github.com/user-attachments/assets/332ee3e3-ef48-4554-93cc-56d12db2de55)
+![Screenshot 2025-03-09 210549](https://github.com/user-attachments/assets/b0ba7ace-1c1b-4426-8504-c9c64ded9bf1)
+![Screenshot 2025-03-09 210601](https://github.com/user-attachments/assets/d295ab81-97d8-4c45-8dcf-77f0b52a2b0e)
+![Screenshot 2025-03-09 210617](https://github.com/user-attachments/assets/6505700c-a019-48be-a510-8f2f51ba683b)
+![Screenshot 2025-03-09 210637](https://github.com/user-attachments/assets/37c61f95-2e5b-49ec-8f84-3bea1f3ba490)
+
 
 ## Features
 
 - **TV Shows and Movies**: Keep a list of featured TV Shows, featured movies, actors spotlight, cinema spotlight, movie/tv show details.
-- **Latest Releases**: Stay informed about the latest TV show and movie releases.
-- **Login nd registration**: Login and registration for the website. 
+- **Latest Releases**: Stay informed about the latest TV shows and movie releases.
+- **Login and registration**: Login and registration for the website. 
 
 ## Application Architecture
 
-BingeNow is built  using React.js and is broken up into a number of pertinent components.
+BingeNow is built  using React.js and is broken up into several pertinent components.
 
 ## Requirements Specification
 
