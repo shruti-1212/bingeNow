@@ -36,7 +36,7 @@ When a user clicks on a movie or TV show from the listing page, they are navigat
 
 ### Registration & Login Pages
 
-These pages contain well-designed user registration and login forms. They can be implemented as separate pages or pop-up modals, maintaining consistency with the structure, header, nav, and footer of the home page.
+These pages contain well-designed user registration and login forms. They are as pop-up modals, maintaining consistency with the structure, header, nav, and footer of the home page.
 
 ## Technologies Used
 
