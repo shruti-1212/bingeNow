@@ -5,7 +5,7 @@ const FeaturedTVShows = () => {
   const [tvShows, setTVShows] = useState([]);
 
   useEffect(() => {
-    fetch('https://bingenow.onrender.com/tvShows')
+    fetch('http://localhost:8080/media/featured?type=tvshows')
       .then(response => response.json())
       .then(data => setTVShows(data));
   }, []);

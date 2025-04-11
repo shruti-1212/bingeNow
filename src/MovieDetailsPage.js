@@ -7,7 +7,7 @@ const MovieDetailsPage = () => {
   const [movie, setMovie] = useState(null);
 
   useEffect(() => {
-    fetch(`https://bingenow.onrender.com/movies/${id}`)
+    fetch(`http://localhost:8080/media/${id}`)
       .then(response => response.json())
       .then(data => setMovie(data));
   }, [id]);

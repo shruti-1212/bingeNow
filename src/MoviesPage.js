@@ -6,7 +6,7 @@ const MoviesPage = () => {
 
   useEffect(() => {
     // Fetch movies from the fake API
-    fetch('https://bingenow.onrender.com/movies')
+    fetch('http://localhost:8080/media/movies')
       .then((response) => response.json())
       .then((data) => setMovies(data));
   }, []);
