@@ -8,6 +8,10 @@ import TVShowsPage from './TVShowsPage';
 import TVShowDetails from './TVShowDetailsPage';
 import RegisterPage from './components/RegisterPage';
 import LoginPage from './components/LoginPage';
+import ProtectedRoute from './components/ProtectedRoute';
+import Dashboard from './components/Dashboard';
+
+
 
 const App = () => {
   return (
@@ -21,6 +25,14 @@ const App = () => {
           <Route path="tv-show/:id" element={<TVShowDetails />} />
           <Route path="register" element={<RegisterPage />} />
           <Route path="login" element={<LoginPage />} />
+          <Route
+            path="dashboard"
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            }
+          />
         </Route>
       </Routes>
     </Router>
