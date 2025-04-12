@@ -5,7 +5,7 @@ const FeaturedMovies = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/media/featured?type=movies')
+    fetch('https://bingenow-backend.onrender.com/media/featured?type=movies')
       .then(response => response.json())
       .then(data => setMovies(data));
   }, []);
