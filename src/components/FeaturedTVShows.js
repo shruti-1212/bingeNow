@@ -17,7 +17,7 @@ const FeaturedTVShows = () => {
         {tvShows.slice(0,7).map(tvShow => (
           <Link key={tvShow.id} to={`/tv-show/${tvShow.id}`}>
           <div key={tvShow.id} className="tv-show-card">
-            <img src={tvShow.posterSmall} alt={tvShow.title} />
+            <img src={tvShow.smallPosterPath} alt={tvShow.title} />
           </div>
           </Link>
         ))}

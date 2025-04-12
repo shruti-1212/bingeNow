@@ -40,7 +40,7 @@ const MovieDetailsPage = () => {
           </div>
         </div>
         <div className="poster" style={{ flex: '1' }}>
-          <img src={movie.posterLarge} alt={movie.title} style={{ width: '750px', borderRadius: '10px',marginTop:"-80px" ,height:"60vh"}} />
+          <img src={movie.largePosterPath} alt={movie.title} style={{ width: '750px', borderRadius: '10px',marginTop:"-80px" ,height:"60vh"}} />
         </div>
       </div>
     </div>

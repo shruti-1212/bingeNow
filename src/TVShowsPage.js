@@ -18,7 +18,7 @@ const TVShowsPage = () => {
         {tvShows.map((tvShow) => (
           <Link key={tvShow.id} to={`/tv-show/${tvShow.id}`}>
             <div className="tv-show-card">
-              <img src={tvShow.posterSmall} alt={tvShow.title} />
+              <img src={tvShow.smallPosterPath} alt={tvShow.title} />
             </div>
           </Link>
         ))}

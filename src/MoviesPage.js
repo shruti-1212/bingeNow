@@ -18,7 +18,7 @@ const MoviesPage = () => {
         {movies.map((movie) => (
           <Link key={movie.id} to={`/movie/${movie.id}`}>
             <div className="movie-card">
-              <img src={movie.posterSmall} alt={movie.title} />
+              <img src={movie.smallPosterPath} alt={movie.title} />
             </div>
           </Link>
         ))}

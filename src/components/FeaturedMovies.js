@@ -17,7 +17,7 @@ const FeaturedMovies = () => {
         {movies.slice(0,7).map(movie => (
           <Link key={movie.id} to={`/movie/${movie.id}`}>
             <div key={movie.id} className="movie-card">
-              <img src={movie.posterSmall} alt={movie.title} />
+              <img src={movie.smallPosterPath} alt={movie.title} />
           </div>
           </Link>
         ))}

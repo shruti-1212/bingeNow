@@ -43,7 +43,7 @@ const TVShowDetails = () => {
           </div>
         </div>
         <div className="poster" style={{ flex: '1' }}>
-          <img src={tvShow.posterLarge} alt={tvShow.title} style={{ width: '750px', borderRadius: '10px',marginTop:"-80px" ,height:"60vh"  }} />
+          <img src={tvShow.largePosterPath} alt={tvShow.title} style={{ width: '750px', borderRadius: '10px',marginTop:"-80px" ,height:"60vh"  }} />
         </div>
       </div>
     </div>

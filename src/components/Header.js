@@ -2,12 +2,32 @@ import React, { useState } from 'react';
 import Modal from './Modal';
 import RegisterForm from './RegisterPage';
 import LoginForm from './LoginPage';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 
 const Header = () => {
   const [isRegisterOpen, setIsRegisterOpen] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const navigate = useNavigate(); // to navigate to a search results page or update route
+
+  const handleSearch = async (e) => {
+    e.preventDefault();
+    if (searchTerm.trim() === '') return;
+
+    try {
+      // Optionally pass results to a search page, or log/display results
+      const response = await fetch(`http://localhost:8080/media/search?name=${encodeURIComponent(searchTerm)}`);
+      const data = await response.json();
+      console.log('Search results:', data);
+
+      // You could navigate to a results page if implemented:
+      navigate(`/search?query=${encodeURIComponent(searchTerm)}`, { state: { results: data } });
+    } catch (error) {
+      console.error('Search error:', error);
+    }
+  };
 
   return (
     <header>
@@ -15,9 +35,18 @@ const Header = () => {
         <Link to="/">BingeNow</Link>
       </div>
       <nav>
-      <span className="nav-link">
-          <FaSearch />
-        </span>
+        <form onSubmit={handleSearch} className="search-bar">
+          <input
+            type="text"
+            placeholder="Search movies or shows..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <button type="submit" className="search-icon">
+            <FaSearch />
+          </button>
+        </form>
+
         <Link to="/">Home</Link>
         <Link to="/movies">Movies</Link>
         <Link to="/tv-shows">TV Shows</Link>
