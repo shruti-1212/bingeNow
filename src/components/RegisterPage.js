@@ -23,7 +23,7 @@ const RegisterPage = ({ onClose }) => {
     setSuccess('');
 
     try {
-      const response = await fetch('http://localhost:8080/customers/register', {
+      const response = await fetch('https://bingenow-backend.onrender.com/customers/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

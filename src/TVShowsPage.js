@@ -6,7 +6,7 @@ const TVShowsPage = () => {
 
   useEffect(() => {
     // Fetch TV shows from the fake API
-    fetch('http://localhost:8080/media/tvshows')
+    fetch('https://bingenow-backend.onrender.com/media/tvshows')
       .then((response) => response.json())
       .then((data) => setTVShows(data));
   }, []);

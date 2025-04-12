@@ -18,7 +18,7 @@ const Header = () => {
 
     try {
       // Optionally pass results to a search page, or log/display results
-      const response = await fetch(`http://localhost:8080/media/search?name=${encodeURIComponent(searchTerm)}`);
+      const response = await fetch(`https://bingenow-backend.onrender.com/media/search?name=${encodeURIComponent(searchTerm)}`);
       const data = await response.json();
       console.log('Search results:', data);
 
